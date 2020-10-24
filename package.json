@@ -4,9 +4,13 @@
   "version": "0.0.0",
   "license": "MIT",
   "author": "Rafael Henrique Berro <rhberro@gmail.com>",
+  "homepage": "https://github.com/rhberro/eslint-config-rhberro#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rhberro/eslint-config-rhberro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rhberro/eslint-config-rhberro/issues"
   },
   "keywords": [
     "eslint",
@@ -20,9 +24,5 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
     "prettier": "^2.1.2"
-  },
-  "bugs": {
-    "url": "https://github.com/rhberro/eslint-config-rhberro/issues"
-  },
-  "homepage": "https://github.com/rhberro/eslint-config-rhberro#readme"
+  }
 }
