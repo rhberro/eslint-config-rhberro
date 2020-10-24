@@ -5,7 +5,7 @@
 Install `eslint-config-rhberro` and its peer dependencies.
 
 ```
-npx install-peerdeps --save-dev eslint-config-rhberro
+npx install-peerdeps --dev eslint-config-rhberro
 ```
 
 ## Using

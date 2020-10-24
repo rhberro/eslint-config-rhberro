@@ -18,4 +18,7 @@ module.exports = {
     "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
   ],
+  rules: {
+    "function-paren-newline": ["error", "multiline-arguments"]
+  },
 };
