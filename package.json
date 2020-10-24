@@ -1,28 +1,28 @@
 {
-    "name": "eslint-config-rhberro",
-    "description": "My custom .eslintrc configuration.",
-    "version": "1.0.0",
-    "license": "MIT",
-    "author": {
-      "name": "Rafael Henrique Berro",
-      "email": "rhberro@gmail.com"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/rhberro/eslint-config-rhberro"
-    },
-    "keywords": [
-      "eslint",
-      "eslint-config"
-    ],
-    "peerDependencies": {
-      "@typescript-eslint/eslint-plugin": "^4.5.0",
-      "@typescript-eslint/parser": "^4.5.0",
-      "eslint": "^7.11.0",
-      "eslint-config-prettier": "^6.14.0",
-      "eslint-plugin-prettier": "^3.1.4",
-      "eslint-plugin-react": "^7.21.5",
-      "prettier": "^2.1.2"
-    }
-  }
-  
+  "name": "eslint-config-rhberro",
+  "description": "My custom .eslintrc configuration.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": "Rafael Henrique Berro <rhberro@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhberro/eslint-config-rhberro.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config"
+  ],
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "prettier": "^2.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/rhberro/eslint-config-rhberro/issues"
+  },
+  "homepage": "https://github.com/rhberro/eslint-config-rhberro#readme"
+}
