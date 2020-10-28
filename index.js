@@ -3,22 +3,24 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2020,
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
     },
-    sourceType: "module"
+    sourceType: "module",
   },
   settings: {
     react: {
-      version: "detect"
-    }
+      version: "detect",
+    },
   },
   extends: [
+    "eslint:recommended",
     "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "prettier",
     "prettier/@typescript-eslint",
-    "plugin:prettier/recommended"
+    "prettier/react",
   ],
-  rules: {
-    "function-paren-newline": ["error", "multiline-arguments"]
-  },
 };
